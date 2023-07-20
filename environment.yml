@@ -1,0 +1,21 @@
+name: PRGpred
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip=20.2.4
+  - pip:
+    - numpy
+    - pandas
+    - keras
+    - sklearn
+    - xlrd
+    - openpyxl
+    - h5py
+    - biopython
+    - scikit-learn
+    - scipy
+    - tensorflow
+    
